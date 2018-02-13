@@ -31,7 +31,7 @@ class C08502 implements OnClickListener {
 }
 ```
 
-The second activity asks for another string. This time it checks my input in the function Main2Activity.m4831a():
+The second activity asks for another string. This time it checks our input in the function Main2Activity.m4831a():
 
 ```
 public static String m4831a(String str) {
