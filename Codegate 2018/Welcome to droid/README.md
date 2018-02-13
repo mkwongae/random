@@ -1,6 +1,6 @@
 ## Welcome to droid
 
-Challange done on Genymotion virtual device with ARM Translation
+Challange done on Genymotion virtual device
 
 Install the apk with adb:
 ```
