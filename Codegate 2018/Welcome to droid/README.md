@@ -32,7 +32,7 @@ class C08502 implements OnClickListener {
 ```
 
 The second activity asks for another string. This time it checks our input in the function Main2Activity.m4831a():
-
+![Main2Activity](Main2Activity.png)
 ```
 public static String m4831a(String str) {
     int i = 0;
@@ -79,7 +79,7 @@ public void onClick(View view) {
 ```
 
 The third activity asks for our input again. The input is also checked before going to the next activity. People said it is impossible to find a valid input but I did not drill into the details at that time.
-
+![Main3Activity](Main3Activity.png)
 ```
 class C08472 implements OnClickListener {
     final /* synthetic */ Main3Activity f3089a;
@@ -113,6 +113,8 @@ protected void onCreate(Bundle bundle) {
 ```
 
 To solve this challange I used [Inspeckage](http://ac-pm.github.io/Inspeckage/) to hook the two input checking functions and replace the return values with 1.
+
+![Main4Activity](Main4Activity.png)
 
 FLAG{W3_w3r3_Back_70_$3v3n7een!!!}
 
