@@ -10,7 +10,7 @@ adb install -t <file>
 By decompiling the file we got 4 Java classes.  
 
 The first activity asks for a string and passes it to next activity:
-
+![MainActivity](MainActivity.png)
 ```
 class C08502 implements OnClickListener {
     final /* synthetic */ MainActivity f3094a;
