@@ -112,7 +112,7 @@ protected void onCreate(Bundle bundle) {
 }
 ```
 
-To solve this challange I used [Inspeckage](http://ac-pm.github.io/Inspeckage/) to hook the two input checking functions and replace the return value with 1.
+To solve this challange I used [Inspeckage](http://ac-pm.github.io/Inspeckage/) to hook the two input checking functions and replace the return values with 1.
 
 FLAG{W3_w3r3_Back_70_$3v3n7een!!!}
 
